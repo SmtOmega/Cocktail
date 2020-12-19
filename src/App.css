@@ -4,8 +4,9 @@ img {
 }
 
 nav {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 15px 0;
+    width: 100%;
 
 }
 ul {
@@ -14,11 +15,12 @@ ul {
 
  .nav-container {
      max-width: 1170px;
-     width: 90vw;
+     width: 95vw;
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     
      
  }
  .links {
@@ -27,8 +29,8 @@ ul {
     align-items: center;
  }
  .links li a{
-     padding-right: 30px;
      text-decoration: none;
+     margin-left: 15px;
  }
  .logo {
      width: 192px;
@@ -50,7 +52,9 @@ ul {
  }
 
  .input-container {
-     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  input {
      width: 30vw;
@@ -143,9 +147,13 @@ color:  #fff;
         grid-template-columns: auto;
     }
     input {
-        width: 45vw;
+        width: 60vw;
+    }
+    .logo {
+        width: 150px;
     }
 }
+
 
  /* Loading Animation css Style */
  .container {
