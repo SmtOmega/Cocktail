@@ -6,7 +6,6 @@ img {
 nav {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 15px 0;
-    width: 100%;
 
 }
 ul {
@@ -15,7 +14,7 @@ ul {
 
  .nav-container {
      max-width: 1170px;
-     width: 95vw;
+     width: 90vw;
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
