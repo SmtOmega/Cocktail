@@ -3,10 +3,10 @@ import React from 'react'
 
 const Loading = () => {
     return(
-        <div class="container">
-            <div class="first animate"></div>
-            <div class="second animate"></div>
-            <div class="third animate"></div>
+        <div className="container">
+            <div className="first animate"></div>
+            <div className="second animate"></div>
+            <div className="third animate"></div>
     </div>
     )
 }
